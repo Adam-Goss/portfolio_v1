@@ -27,8 +27,8 @@ function toggleMenu() {
 
   } else {
     //if the menu is shown and then clicked, remove show classes
-    menuBtn.classList.add('show');
-    menu.classList.remove('close');
+    menuBtn.classList.remove('close');
+    menu.classList.remove('show');
     menuNav.classList.remove('show');
     menuBranding.classList.remove('show');
     navItems.forEach(item => item.classList.remove('show'));
